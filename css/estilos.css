@@ -1,0 +1,13 @@
+body {
+    background-color: #484848;
+}
+
+header {
+    height: 80px;
+    background-color: green;
+    display: flex; /* Define a distribuição dos elementos. */
+    justify-content: space-evenly; /* Define a distribuição igualitária dos elementos. */
+    align-items: center; /* Alinha os elementos verticalmente */
+    position: relative; /* Define a distribuição das imagens */
+
+}
