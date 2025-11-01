@@ -1,12 +1,9 @@
 body {
-    display: flex; /* Define a distribuição dos elementos. */
-    justify-content: space-evenly; /* Define a distribuição igualitária dos elementos. */
-    align-items: center; /* Alinha os elementos verticalmente */
-    position: relative; /* Define a distribuição das imagens */
+
     margin: 0;
-    background-image: url('../imagens/index_wallpaper.jpg');
+    background-image: url("../imagens/index_wallpaper.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed
 }
 
 header {
@@ -18,6 +15,7 @@ header {
     position: relative; /* Define a distribuição das imagens */
     background: #22c373;
     background: linear-gradient(180deg, rgba(34, 195, 115, 1) 0%, rgba(253, 187, 45, 0) 100%);
+
 }
 
 a {
@@ -37,4 +35,10 @@ nav {
     align-items: center; /* Alinha os elementos verticalmente */
     justify-content: flex-end; /* Define a posição dos elementos para o final. */
 
+}
+
+.section_index {
+    background-color: #22c373;
+    height: 800px;
+    border-radius: 40px;
 }
