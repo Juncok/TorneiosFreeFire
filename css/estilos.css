@@ -3,7 +3,8 @@ body {
     margin: 0;
     background-image: url("../imagens/index_wallpaper.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {
@@ -26,9 +27,11 @@ a {
     margin-right: 12px;
 }
 
+/*
 a:hover {
     text-decoration: overline;
 }
+*/
 
 nav {
     display: flex; /* Define a distribuição dos elementos. */
