@@ -74,6 +74,7 @@ h1 {
     box-shadow: 0 0px 100px rgba(255, 92, 0, 2);
     filter: brightness(1.1);
 }
+
 .grade_torneios_recentes {
      margin-left: 50px;
      margin-right: 50px;
@@ -84,10 +85,14 @@ h1 {
      align-items: center;
 }
 
-
 .imagens_guildas_em_destaques {
     border-radius: 10px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.imagens_guildas_em_destaques:hover {
+    box-shadow: 0 0px 50px rgba(255, 92, 0, 2);
+    filter: brightness(1.1);
 }
