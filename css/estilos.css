@@ -96,3 +96,18 @@ h1 {
     box-shadow: 0 0px 50px rgba(255, 92, 0, 2);
     filter: brightness(1.1);
 }
+
+/* Modificações dos ícones das redes sociais no footer */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Hover para os ícones das redes sociais no footer */
+.fa:hover {
+  color: rgb(243, 119, 46);
+  text-shadow: 0 0px 50px rgba(255, 92, 0, 2);;
+}

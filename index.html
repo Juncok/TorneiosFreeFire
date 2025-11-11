@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"> <!--'name' e 'content' usados para auxiliar no redimensionamento de textos-->
 </head>
 <title>Torneios FreeFire</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
-<link rel="stylesheet" href="/css/estilos.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!--Link usado para utilizar recursos do Bootstrap-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Link para usar icones de rede social-->
+<link rel="stylesheet" href="/css/estilos.css"> <!--Link do arquivo de estilização do site.-->
 
 
 <body>
 <header class="fixed-top">
     <img src="/imagens/icon.png" style="height: 70%; margin-left: 10%">
     <nav style="width: 100%; margin-right: 10%">
-        <a href="www.google.com" class="btn btn-outline-danger" style="color: white;">Torneios</a>
-        <a href="www.google.com" class="btn btn-outline-danger" style="color: white;">Guildas</a>
+        <a href="#torneios" class="btn btn-outline-danger" style="color: white;">Torneios</a>
+        <a href="#guildas" class="btn btn-outline-danger" style="color: white;">Guildas</a>
         <a href="www.google.com" class="btn btn-outline-danger" style="color: white;">Criar torneio</a>
     </nav>
 </header>
@@ -30,7 +30,7 @@
 
 <article style="background-color: #222d34; width: 100%; margin-left: 0px;">
     <section>
-        <h1 style="margin-left: 50px; width: fit-content; padding-left: 10px; padding-right: 10px;">Torneios recentes</h1>
+        <h1 style="margin-left: 50px; width: fit-content; padding-left: 10px; padding-right: 10px;" id="torneios">Torneios recentes</h1>
         <div class="row" style="margin-left: 50px; margin-right: 50px; margin-top: 20px; display: flex; justify-content: space-evenly; align-items: center; background-color: #222d34;">
             <!--<div class="col-12 col-sm-4 col-md-2"><img src="https://cdn.folhape.com.br/upload/dn_arquivo/2020/05/unnamed.png" class="img-fluid rounded imagens_torneios_recentes"></div>
             <div class="col-12 col-sm-4 col-md-2"><img src="https://theradioativo.com.br/wp-content/uploads/2023/06/E235F66A-C1C9-4085-B763-4134F50EB4C2.jpeg" class="img-fluid rounded imagens_torneios_recentes"></div>
@@ -56,7 +56,7 @@
             <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://s2-ge.glbimg.com/itSnFaIFQMZdtvY01pa-2RzFlsw=/0x0:1080x756/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/y/V/Pd5v4ZSMKxApu6kyfUEg/copa-ff-2024.jpg');"></div>
         </div>
         <div style="display: flex; justify-content: center; align-items: center; margin-top: 30px">
-            <a href="www.google.com" class="btn btn-outline-danger" style="color: white;">Outros torneios</a>
+            <a href="torneios.html" class="btn btn-outline-danger" style="color: white;">Outros torneios</a>
         </div>
     </section>
 
@@ -68,7 +68,7 @@
     </section>
 
     <section>
-        <h1 style="margin-left: 50px; width: fit-content; padding-left: 10px; padding-right: 10px; margin-top: 50px;">Guildas em destaques</h1>
+        <h1 style="margin-left: 50px; width: fit-content; padding-left: 10px; padding-right: 10px; margin-top: 50px;" id="guildas">Guildas em destaques</h1>
         <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
 
             <div class="card text-center col-11" style="margin-bottom: 30px; margin-top: 30px; background-color: #222d34;">
@@ -102,17 +102,27 @@
 </article>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
 
 
-<footer style="height: 100px; background-color: rgba(0, 0, 0, 0.1); backdrop-filter: blur(18px);">
-    <section style="background: #ffffff; background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(34, 45, 52, 1) 100%); height: 100px; width: 100%;"></section>
-    <div style="background-color: rgba(0, 0, 0, 0.1); backdrop-filter: blur(18px)">
 
-        tststst
+<!--Footer com 3 ícones de rede sociais e 2 textos-->
+<footer style="background-color: #222d34; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div style="margin-top: 100px;"> <!--Div com os 3 ícones de rede sociais-->
+
+        <a href="https://www.facebook.com/david.benner.1238" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://x.com/Juncok1" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://www.instagram.com/juncok/" class="fa fa-instagram" target="_blank"></a>
 
     </div>
+    <div style="display: flex;">
+        <h6 style="color: white;">Termos de uso</h6>
+        <h6 style="color: white; margin-left: 10px;">Informações gerais</h6>
+    </div>
+    <h6 style="color: rgb(124, 124, 124); margin-left: 10px;">&#169 2025 Juncok</h6>
+    
 
 </footer>
+</body>
+
 
 </html>
