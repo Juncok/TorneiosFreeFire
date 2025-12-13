@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"> <!--'name' e 'content' usados para auxiliar no redimensionamento de textos-->
+</head>
+<title>Torneios FreeFire</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!--Link usado para utilizar recursos do Bootstrap-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Link para usar icones de rede social-->
+<link rel="stylesheet" href="css/estilos.css"> <!--Link do arquivo de estilização do site.-->
+
+
+<body style="background-image: url('imagens/index_wallpaper.jpg');">
+<header class="fixed-top">
+    <a href="#"> <img src="imagens/icon.png" style="height: 70px; margin-left: 70px"></a>
+    <nav style="width: 100%; margin-right: 10%">
+        <a href="#torneios" class="btn btn-outline-danger" style="color: white;">Torneios</a>
+        <a href="#guildas" class="btn btn-outline-danger" style="color: white;">Guildas</a>
+        <a href="criar_torneios.html" class="btn btn-outline-danger" style="color: white;">Criar torneio</a>
+    </nav>
+</header>
+
+<section style="margin-top: 200px; margin-left: 50px">
+    <h1 style=" color: white; text-shadow: 2px 2px 14px #000000;"><strong>Crie ou entre num torneio!</strong></h1>
+    <h3 style="color: white; text-shadow: 2px 2px 14px #000000;">Escolha um torneio para participar,<br> ou clica em criar torneio.</h3>
+</section>
+
+<section style="background: #ffffff; background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(34, 45, 52, 1) 100%); height: 100px; margin-top: 15%; width: 100% ;">
+</section>
+
+<article style="background-color: #222d34; width: 100%; margin-left: 0px;">
+    <section>
+        <h1 style="margin-left: 50px; width: fit-content; padding-left: 10px; padding-right: 10px;" id="torneios">Torneios recentes</h1>
+        <div class="row" style="margin-left: 50px; margin-right: 50px; margin-top: 20px; display: flex; justify-content: space-evenly; align-items: center; background-color: #222d34;">
+            <!--<div class="col-12 col-sm-4 col-md-2"><img src="https://cdn.folhape.com.br/upload/dn_arquivo/2020/05/unnamed.png" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://theradioativo.com.br/wp-content/uploads/2023/06/E235F66A-C1C9-4085-B763-4134F50EB4C2.jpeg" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://images.justwatch.com/poster/306057903/s718/naruto-shippuden.jpg" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://images.justwatch.com/poster/306057903/s718/naruto-shippuden.jpg" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://images.justwatch.com/poster/306057903/s718/naruto-shippuden.jpg" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://images.justwatch.com/poster/306057903/s718/naruto-shippuden.jpg" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://images.justwatch.com/poster/306057903/s718/naruto-shippuden.jpg" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://images.justwatch.com/poster/306057903/s718/naruto-shippuden.jpg" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://images.justwatch.com/poster/306057903/s718/naruto-shippuden.jpg" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://images.justwatch.com/poster/306057903/s718/naruto-shippuden.jpg" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://images.justwatch.com/poster/306057903/s718/naruto-shippuden.jpg" class="img-fluid rounded imagens_torneios_recentes"></div>
+            <div class="col-12 col-sm-4 col-md-2"><img src="https://images.justwatch.com/poster/306057903/s718/naruto-shippuden.jpg" class="img-fluid rounded imagens_torneios_recentes"></div>-->
+            <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://theradioativo.com.br/wp-content/uploads/2023/06/E235F66A-C1C9-4085-B763-4134F50EB4C2.jpeg');"></div>
+            <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://s2-techtudo.glbimg.com/ATYPktMA5CSJejAkR6giROsRNtE=/0x0:820x470/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/m/A/PU0rKZQi6YVKRABANaGw/55669515-352695452065884-4223760423314259968-n-1-.jpg');"></div>
+            <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://cabofrio.rj.gov.br/wp-content/uploads/2021/11/FREEFF.jpg');"></div>
+            <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/11/FreeFire-e1730978653618.jpg?w=1200&h=675&crop=1');"></div>
+            <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://i.pinimg.com/736x/6e/dc/a9/6edca90fd7a346bd02f2d518f339bedf.jpg');"></div>
+            <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://s2-ge.glbimg.com/zrHNJgoSKyL7YLkBNjG1lmvGaP8=/1080x608/top/smart/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/H/0/9XmECpTlqSgeYvelW63g/guildas-garena.jpg');"></div>
+            <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://scontent-gig4-1.xx.fbcdn.net/v/t1.6435-9/60476625_2256136961383089_1461512770225700864_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=vweg1UIKulwQ7kNvwE-Hi5y&_nc_oc=AdnTxj7DUq7wyfwvH-XHAoUzZ2kwUt1U_h29cDCi9-diR8-zOOtAtP8uWOmfNnLZ04A&_nc_zt=23&_nc_ht=scontent-gig4-1.xx&_nc_gid=JCl7AvNRLRiqwg54bP0FVw&oh=00_AfjgP6MVqJYst3mtQZ-hurPwlEk94oLRWspCpvRt5rZLGA&oe=6930840C');"></div>
+            <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://scontent-gig4-1.xx.fbcdn.net/v/t1.6435-9/62074375_1344967932310668_4711646172446457856_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=8ZhfClU8dK0Q7kNvwFFGsOn&_nc_oc=Adn2XVnIhKiTKw-MCTHDIOzTK-hSe68poxYgSdYPEpyyj-tKeWyoLFYQ0yFLyg-Ew_Q&_nc_zt=23&_nc_ht=scontent-gig4-1.xx&_nc_gid=XRYTDK_ysbY5zIfhSpq2Mw&oh=00_Afjw-mDGBpIyozxyuRsgI5cBFnJdQx6_X2BjBbAqKJE15A&oe=6930782D');"></div>
+            <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://s3-sa-east-1.amazonaws.com/lets.events-production/events/photos/2a3/5bb/49-/cover/data');"></div>
+            <div class="col-12 col-sm-4 col-md-2 imagens_torneios_recentes" style="background-image: url('https://s2-ge.glbimg.com/itSnFaIFQMZdtvY01pa-2RzFlsw=/0x0:1080x756/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/y/V/Pd5v4ZSMKxApu6kyfUEg/copa-ff-2024.jpg');"></div>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center; margin-top: 30px">
+            <a href="torneios.html" class="btn btn-outline-danger" style="color: white;">Outros torneios</a>
+        </div>
+    </section>
+
+    <section style="background-color: #222d34; margin-left: 100px; margin-right: 100px; margin-top: 50px;">
+        <div class="container" style="background: #000000; background: linear-gradient(90deg,rgba(0, 0, 0, 0) 0%, rgb(206, 77, 3) 100%);  border-radius: 10px;  display: flex; justify-content: flex-end; align-items: center; padding-right: 0;">
+                <div style="width: 100%; color: white; margin-left: 50px;"><strong><p style="font-size: clamp(1.1rem, 2vw, 2.1rem); padding-top: 20px; line-height: 0.9;">Veja todas as guildas e seus integrantes!</p></strong><p style="font-size: clamp(0.8rem, 2vw, 1.1rem);">Veja os campeonatos ou torneios em que estão.</p></div>
+                <div style="background-color: rgb(243, 119, 46); width: 40%; height: 40px; border-radius: 10px 0 0 10px; display: flex; align-items: center; color: white;"><strong style="margin-left: 10px;"><a href="guildas.html" style="font-size: clamp(0.1rem, 2vw, 1rem)">Ver guildas</a></strong></div>
+        </div>
+    </section>
+
+    <section>
+        <h1 style="margin-left: 50px; width: fit-content; padding-left: 10px; padding-right: 10px; margin-top: 50px;" id="guildas">Guildas em destaques</h1>
+        <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+
+            <div class="card text-center col-11" style="margin-bottom: 30px; margin-top: 30px; background-color: #222d34;">
+                <div class="card-body imagens_guildas_em_destaques" style="background-image: url('imagens/guilda_fluxo.jpg');">
+                <h5 class="card-title" style="color: white;  text-shadow: #000 2px 3px 2px; font-weight: bold;">FLUXO</h5>
+                <p class="card-text" style="color: white; text-shadow: #000 2px 3px 2px;">Prmeiro campeão mundial!</p>
+                <a href="#" class="btn btn-outline-danger" style="color: white;">Conhecer a Fluxo</a>
+                </div>
+            </div>
+
+            <div class="card text-center col-11" style="margin-bottom: 30px; margin-top: 30px; background-color: #222d34;">
+                <div class="card-body imagens_guildas_em_destaques" style="background-image: url('imagens/guilda_loud.jpg');">
+                <h5 class="card-title" style="color: white; text-shadow: #000 2px 3px 2px; font-weight: bold;">LOUD</h5>
+                <p class="card-text" style="color: white; text-shadow: #000 2px 3px 2px;">A maior campeã do Brasil. Títulos nacionais e internacionais!</p>
+                <a href="#" class="btn btn-outline-danger" style="color: white;">Conhecer a Loud</a>
+                </div>
+            </div>
+
+            <div class="card text-center col-11" style="margin-bottom: 30px; margin-top: 30px; background-color: #222d34;">
+                <div class="card-body imagens_guildas_em_destaques" style="background-image: url('imagens/guilda_vasco.jpg');">
+                <h5 class="card-title" style="color: white; text-shadow: #000 2px 3px 2px; font-weight: bold;">VASCO</h5>
+                <p class="card-text" style="color: white; text-shadow: #000 2px 3px 2px; ">Além do mairo clube de futebol do Brasil, é uma das maiores do Free Fire!</p>
+                <a href="#" class="btn btn-outline-danger" style="color: white;">Conhecer o Vasco</a>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center; margin-top: 30px;">
+            <a href="guildas.html" class="btn btn-outline-danger" style="color: white;">Outras guildas</a>
+        </div>
+    </section>
+</article>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+
+<!--Footer com 3 ícones de rede sociais e 2 textos-->
+<footer style="background-color: #222d34; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div style="margin-top: 100px;"> <!--Div com os 3 ícones de rede sociais-->
+
+        <a href="https://www.facebook.com/david.benner.1238" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://x.com/Juncok1" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://www.instagram.com/juncok/" class="fa fa-instagram" target="_blank"></a>
+
+    </div>
+    <div style="display: flex;">
+
+
+        <a href="" data-bs-toggle="modal" data-bs-target="#termosdeuso"><h6 style="color: white;">Termos de uso</h6></a>
+        <a href="" data-bs-toggle="modal" data-bs-target="#informacoesgerais"><h6 style="color: white; margin-left: 10px;">Informações gerais</h6></a>
+    </div>
+    <h6 style="color: rgb(124, 124, 124); margin-left: 10px;">&#169 2025 Juncok</h6>
+
+    <!--Modal para o Termos de uso-->
+    <div class="modal fade" id="termosdeuso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;">Termos de uso</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong>1. Aceitação dos Termos</Strong><br><br>
+
+Ao acessar ou utilizar a plataforma <strong>Torneios Free Fire</strong> (o "Serviço"), você concorda em cumprir e estar sujeito a estes Termos de Uso. Se você não concordar com qualquer parte dos termos, não deverá utilizar o Serviço.<br><br>
+
+<strong>2. Sobre o Serviço</Strong><br><br>
+
+O <strong>Torneios Free Fire</strong>: é uma plataforma online que permite aos usuários:<br><br>
+
+    Visualizar campeonatos e torneios disponíveis.<br>
+
+    Criar e gerenciar seus próprios torneios ("Criadores de Torneio").<br>
+
+    Participar de torneios criados por terceiros ou pela própria plataforma.<br><br>
+
+<strong>3. Cadastro e Contas de Usuário</Strong><br><br>
+
+    <strong>Elegibilidade</strong>: Você deve ter pelo menos 12 anos de idade ou ter o consentimento do responsável legal para usar o Serviço.<br>
+
+    <strong>Responsabilidade da Conta</strong> : Você é responsável por manter a confidencialidade de sua senha e por todas as atividades que ocorrem em sua conta.<br>
+
+    <strong>Informações</strong> : Você concorda em fornecer informações verdadeiras, precisas, atuais e completas durante o processo de registro.
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal para o Informações gerais-->
+    <div class="modal fade" id="informacoesgerais" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;">Informações gerais</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <strong>1. Nossa Missão</strong><br><br>
+
+Criamos o Torneios Free Fire com a missão de facilitar o acesso e conhecimento de torneios de Free Fire.<br><br>
+
+<strong>2. O Que Oferecemos</strong><br><br>
+
+Nossa plataforma foi desenvolvida para ser o ponto central para entusiastas de competições. Oferecemos duas funcionalidades principais:<br><br>
+
+    <strong>1.</strong> Ver campeonatos disponíveis;<br>
+    <strong>2.</strong> Uma área dedicada onde você pode navegar, filtrar e se inscrever em torneios criados por outros usuários, organizadores de eventos e pela própria plataforma; e<br>
+    <strong>3.</strong> Criar e Gerenciar Torneios.<br><br>
+
+<strong>3. Como Funciona a Criação de Torneios</strong><br><br>
+
+    <strong>Registro</strong>: Crie seu torneio gratuitamente.</strong><br>
+
+    <strong>Crie</strong>: Acesse a área "Criar Torneio" e defina o nome, descrição e imagem.<br>
+
+    <strong>Divulgue</strong>: Compartilhe o link do seu torneio com sua comunidade.<br>
+
+    <strong>Gerencie</strong>: Use nossas ferramentas para acompanhar as inscrições e gerenciar as partidas até a final.
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+</footer>
+</body>
+
+
+</html>
